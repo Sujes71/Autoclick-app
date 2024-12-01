@@ -38,5 +38,4 @@ export class AppComponent {
   startAutoclick() {
     this.autoclick$ = this.autoclickSvc.startAutoclick(this.requestBody);
   }
-  
 }
